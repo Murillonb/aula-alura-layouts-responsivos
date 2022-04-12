@@ -31,3 +31,25 @@
 .chamada__botao {
     width: 100%;
 }
+
+/*TABLET 768 a 1024px*/
+@media screen /*print*/ and (min-width: 768px) { /*screen = tela (condição vai existir qdo houver tela)*//*print qdo for imprimir*/
+    .chamada__texto {
+        max-width: 600px;
+    }
+}
+
+/*COMPUTADOR*/
+@media screen and (min-width: 1024px) {
+    .chamada {
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+
+        padding-top: 8.25rem;
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}
